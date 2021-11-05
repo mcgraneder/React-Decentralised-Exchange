@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Header from './Header.js';
-import Footer from './Footer.js';
+// import Footer from './Footer.js';
 import Wallet from './Wallet.js';
 import NewOrder from './NewOrder.js';
 import AllOrders from './AllOrders.js';
@@ -212,7 +212,7 @@ function App({web3, accounts, contracts}) {
           ) : null}
         </div>
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
